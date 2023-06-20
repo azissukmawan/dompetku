@@ -40,6 +40,13 @@ Dompetku is an application that monitors your finances in terms of expenses and 
 
 ![Mockup](https://cdn.jsdelivr.net/gh/azissukmawan/dompetku@main/source_image/Mockup.png)
 
+## Download Apk
+Download in link here https://drive.google.com/file/d/1p3qkjjyOQV6aj1X1MkDzUTMp64UTzXqg/view?usp=sharing
+
+Note : after that, if there is a play protect notification, just click install anyway, 
+this is because it hasn't been published to the play store and the API data doesn't use SSL yet. 
+This is just a trial application only
+
 
 ## Installation
 
