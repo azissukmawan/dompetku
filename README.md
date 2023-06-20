@@ -1,17 +1,80 @@
-# dompetku
 
-A new Flutter project.
+# Dompetku
 
-## Getting Started
+Dompetku is an application that monitors your finances in terms of expenses and income
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Logo](https://cdn.jsdelivr.net/gh/azissukmawan/dompetku@main/source_image/logo.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# dompetku
+## Features and Todo
+
+ ✅ Login and register
+
+ ✅ Add income
+
+ ✅ Add outcome
+
+ ✅ View history by category
+
+ ✅ View history for all category
+
+ ✅ Search history
+
+ ✅ Update history
+
+ ✅ Delete history
+
+ ✅ Detail history
+
+ ❎ Graphical display for icome comparison, outcome based on week, day, month
+
+ ❎ Splash Screen
+
+ ❎ Update profile
+
+ ❎ Display notice history
+
+
+## Overview
+
+![Mockup](https://cdn.jsdelivr.net/gh/azissukmawan/dompetku@main/source_image/Mockup.png)
+
+
+## Installation
+
+Run the following commands from your terminal:
+
+- Clone this repository ``` https://github.com/azissukmawan dompetku.git ```
+- ``` cd project ``` go to directory project
+- ``` flutter pub get ``` in the project root directory to install all the required dependencies.
+
+    
+## Setup
+find directory lib > config > api.dart
+
+to change value ```baseUrl``` for your hosting if want use other hosting
+
+``` dart
+class Api {
+  static const baseUrl = 'https://your_url.com';
+  static const user = '$baseUrl/user';
+  static const history = '$baseUrl/history';
+}
+```
+
+for use API project, clone this project [repository](https://github.com/azissukmawan/api-dompetku) for more guide and use.
+## Contributing
+
+Contributions are always welcome!
+
+if you have free time and want to revise or add features, Then, you can open a new [issue](https://github.com/azissukmawan/dompetku/issues), of a [pull request](https://github.com/azissukmawan/dompetku/compare/main...dev_update). Thank you 😁
+
+
+
+## Tech Stack
+
+**Client:** Flutter
+
+**Server:** PHP
+
