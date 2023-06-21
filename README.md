@@ -52,7 +52,7 @@ This is just a trial application only
 
 Run the following commands from your terminal:
 
-- Clone this repository ``` https://github.com/azissukmawan dompetku.git ```
+- Clone this repository ``` https://github.com/azissukmawan/dompetku.git ```
 - ``` cd project ``` go to directory project
 - ``` flutter pub get ``` in the project root directory to install all the required dependencies.
 
